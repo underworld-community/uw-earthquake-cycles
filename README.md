@@ -8,7 +8,7 @@
   <td>Reynolds Number=40</td>
  </tr>
  <tr>
-  <td colspan="2"><img src='./Wave_propagation.gif'></td>
+  <td colspan="2"><img src='./Wave_Propagation.gif'></td>
  </tr>
 </table>
 
