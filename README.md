@@ -1,4 +1,18 @@
-<table><tr><td><img src='./Re40.gif'></td><td><img src='./Re400.gif'></td></tr></table>
+<table>
+ <tr>
+  <td><img src='./Re40.gif'></td>
+  <td><img src='./Re400.gif'></td>
+ </tr>
+ <tr>
+  <td>Reynolds Number=40</td>
+  <td>>Reynolds Number=40</td>
+ </tr>
+  <td colspan="2">&nbsp;</td>
+ </tr>
+  </tr>
+  <td colspan="2">&nbsp;</td>
+ </tr>
+</table>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
 
