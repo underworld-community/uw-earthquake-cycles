@@ -1,48 +1,29 @@
 <table>
  <tr>
-  <td><img src='./Re40.gif'></td>
-  <td><img src='./Re400.gif'></td>
+  <td><img src='./Re40.gif'> Reynolds Number=40</td>
+  <td><img src='./Re400.gif'> Reynolds Number=400</td>
  </tr>
  <tr>
-  <td>Reynolds Number=40</td>
-  <td>Reynolds Number=40</td>
- </tr>
- <tr>
-  <td colspan="2"><img src='./Wave_Propagation.gif'></td>
+  <td colspan="2"><img src='./Wave_Propagation.gif'> Viscoelastic Wave Propagation</td>
  </tr>
 </table>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
 
-About
+
+Abstract
 -----
-**_Please replace the following with information about your own repository._**
-
-Welcome! This is a template git repository for creating REPRODUCIBLE Underworld code based projects.
-
-REPRODUCIBLE because this project:
-1. Is stored in a git repository.
-2. Uses a Dockerfile to recreate the exact project environment.
-
-The two features above enable the project to take advantage of software engineering and open source principles, such as:
-_version control_, _reproducible environments_, _collaboration_ (Pull Requests, Binderhub), _continuous integration_. 
-
-(See https://the-turing-way.netlify.com/, for a general introduction to these principle. N.B. it is data-science focussed)  
-
-You can use this repository as a GitHub template to start a new repository of your own that matches the requirements of the underworld-community. To get started, hit the "Use this template" button above. See this [quick start guide]( https://github.com/underworld-community/template-project/wiki/Quick-start) for more information.
+Visco-elastic-plastic modelling approaches for long-term tectonic deformation assume that co-seismic fault displacement can be integrated over 1,000s-10,000s years (tens of earthquake cycles) with the appropriate failure law, and that short-timescale fluctuations in the stress field due to individual earthquakes have no effect on long-term behavior. Models of the earthquake rupture process generally assume that the tectonic (long-range) stress field or kinematic boundary conditions are steady over the course of multiple earthquake cycles. This study is aimed to fill the gap between long-term and short-term deformations by modeling earthquake cycles with the rate-and-state frictional relationship in Navier-Stokes equations. We reproduce benchmarks at the earthquake timescale to demonstrate the effectiveness of our approach. We then discuss how these high-resolution models degrade if the time-step cannot capture the rupture process accurately and, from this, infer when it is important to consider coupling of the two timescales and the level of accuracy required. To build upon these benchmarks, we undertake a generic study of a thrust fault in the crust with a prescribed geometry. It is found that lower crustal rheology affects the periodic time of characteristic earthquake cycles and the inter-seismic, free-surface deformation rate. In particular, the relaxation of the surface of a cratonic region (with a relatively strong lower crust) has a characteristic double-peaked uplift profile that persists for thousands of years after a major slip event. This pattern might be diagnostic of active faults in cratonic regions.
 
 
-Files
------
-**_Please give a quick overview of purpose of the model files/directories included in this repo._**
-**_Note that while light data files are fine,  heavy data should not be included in your repository._**
 
 File | Purpose
 --- | ---
-`RayTay.ipynb` | A simple Rayleigh Taylor notebook. 
-`VrmsCaseA.txt`| Expected results data file. 
-`raytay.png` | Image file.
-`raytay_init.png` | Initial image file.
+`Example_Reynolds_Strouhal_CylinderFlow.ipynb` | Viscous-incertial flow (Section 3.1 in MS). 
+`High-order_2ndOrd_RodWave_Maxwell.ipynb`| Vicoelastic wave Propation in a Maxwell Rod (Section 3.1 in MS). 
+`BP5-FD_imcompressible.py` | Fully dynamic modelling with incompressible media   (Section 3.3 in MS).
+`Thrust_2D.py` | 2D thrust fault model (case study in the MS).
+`Thrust_3D.py` | 3D thrust fault model (case study in the MS).
 
 Tests
 -----
