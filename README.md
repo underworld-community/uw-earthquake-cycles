@@ -20,7 +20,7 @@ Visco-elastic-plastic modelling approaches for long-term tectonic deformation as
 File | Purpose
 --- | ---
 `Example_Reynolds_Strouhal_CylinderFlow.ipynb` | Viscous-incertial flow (Section 3.1 in MS). 
-`High-order_2ndOrd_RodWave_Maxwell.ipynb`| Vicoelastic wave Propation in a Maxwell Rod (Section 3.1 in MS). 
+`High-order_2ndOrd_RodWave_Maxwell.ipynb`| Vicoelastic wave Propation in a Maxwell Rod (Section 3.２ in MS). 
 `BP5-FD_imcompressible.py` | Fully dynamic modelling with incompressible media   (Section 3.3 in MS).
 `Thrust_2D.py` | 2D thrust fault model (case study in the MS).
 `Thrust_3D.py` | 3D thrust fault model (case study in the MS).
