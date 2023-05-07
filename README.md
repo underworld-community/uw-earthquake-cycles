@@ -5,13 +5,7 @@
  </tr>
  <tr>
   <td>Reynolds Number=40</td>
-  <td>>Reynolds Number=40</td>
- </tr>
-  <td colspan="2">&nbsp;</td>
- </tr>
-  </tr>
-  <td colspan="2">&nbsp;</td>
- </tr>
+  <td>Reynolds Number=40</td>
 </table>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
