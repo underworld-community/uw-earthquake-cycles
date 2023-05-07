@@ -33,13 +33,13 @@ Tests
 
 This study uses Underworld to reproduce the benchmark models provided by 
 
-Kolomenskiy, D. and Schneider, K., 2009. A Fourier spectral method for the Navier–Stokes equations with volume penalization for moving solid obstacles. Journal of Computational Physics, 228(16), pp.5687-5709.
+_Kolomenskiy, D. and Schneider, K., 2009. A Fourier spectral method for the Navier–Stokes equations with volume penalization for moving solid obstacles. Journal of Computational Physics, 228(16), pp.5687-5709._
 
-Lee, E.H. and Kanter, I., 1953. Wave propagation in finite rods of viscoelastic material. Journal of applied physics, 24(9), pp.1115-1122.
+_Lee, E.H. and Kanter, I., 1953. Wave propagation in finite rods of viscoelastic material. Journal of applied physics, 24(9), pp.1115-1122._
 
-Jiang, J., Erickson, B.A., Lambert, V.R., Ampuero, J.P., Ando, R., Barbot, S.D., Cattania, C., Zilio, L.D., Duan, B., Dunham, E.M. and Gabriel, A.A., 2022. Community‐driven code comparisons for three‐dimensional dynamic modeling of sequences of earthquakes and aseismic slip. Journal of Geophysical Research: Solid Earth, 127(3), p.e2021JB023519.
+_Jiang, J., Erickson, B.A., Lambert, V.R., Ampuero, J.P., Ando, R., Barbot, S.D., Cattania, C., Zilio, L.D., Duan, B., Dunham, E.M. and Gabriel, A.A., 2022. Community‐driven code comparisons for three‐dimensional dynamic modeling of sequences of earthquakes and aseismic slip. Journal of Geophysical Research: Solid Earth, 127(3), p.e2021JB023519._
 
-Better to take notebook file High-order_2ndOrd_RodWave_Maxwell as a start to check how different order FD approximaiton is implemented in the code
+Better to take notebook file 'High-order_2ndOrd_RodWave_Maxwell.ipynb' as a start to check how different order FD approximaiton is implemented in the UW2 code
 
 Parallel Safe
 -------------
