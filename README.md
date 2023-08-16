@@ -10,6 +10,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
 
+[![DOI](https://zenodo.org/badge/636547421.svg)](https://zenodo.org/badge/latestdoi/636547421)
 
 Abstract
 -----
